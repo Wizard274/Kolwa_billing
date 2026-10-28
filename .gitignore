@@ -1,0 +1,39 @@
+# Node.js dependencies
+node_modules/
+**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment and secrets (Never commit secrets to GitHub)
+.env
+.env.*
+**/.env
+**/.env.*
+!.env.example
+!.env.*.example
+!**/.env.example
+!**/.env.*.example
+
+# Production builds and bundles
+dist/
+**/dist/
+dist-ssr/
+build/
+*.local
+
+# Logs and runtime data
+logs/
+*.log
+
+# Editor and OS files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db
